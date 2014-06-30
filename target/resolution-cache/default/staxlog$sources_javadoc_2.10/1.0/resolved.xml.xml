@@ -4,7 +4,7 @@
 		module="staxlog$sources_javadoc_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140630144246"
+		publication="20140630154320"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -28,13 +28,9 @@
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scalatest" name="scalatest_2.10" rev="1.9.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scalatest_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scalatest_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.scala-lang" name="scala-actors" rev="2.10.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="scala-actors" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="scala-actors" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
