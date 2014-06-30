@@ -1,45 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="joels-MacBook-Pro.local" name="test" tests="2" errors="0" failures="1" time="-0.002">
-                <properties> <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="24.55-b03"/><property name="user.country.format" value="GB"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/joel/Documents/staxlog"/><property name="java.runtime.version" value="1.7.0_55-b13"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/0p/smbvclyn1s15jjt3s0tr7tnr0000gn/T/"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/joel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.9.3"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/joel"/><property name="user.timezone" value="Europe/London"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar"/><property name="user.name" value="joel"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_55"/><property name="java.ext.dirs" value="/Users/joel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+<testsuite hostname="joels-MacBook-Pro.local" name="test" tests="3" errors="0" failures="1" time="0.057">
+                <properties> <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="24.55-b03"/><property name="user.country.format" value="GB"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/joel/Documents/code/staxlog"/><property name="java.runtime.version" value="1.7.0_55-b13"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/0p/smbvclyn1s15jjt3s0tr7tnr0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/joel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.9.3"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/joel"/><property name="user.timezone" value="Europe/London"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.7"/><property name="java.class.path" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar"/><property name="user.name" value="joel"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar test"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_55"/><property name="java.ext.dirs" value="/Users/joel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
         </properties>
-                <testcase classname="test" name="test 2 expected values are equal" time="-0.001"> 
-                    </testcase><testcase classname="test" name="test 2 values are different and fail" time="-0.001"> <failure message="2 did not equal 3" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: 2 did not equal 3
-	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:318)
-	at test.newAssertionFailedException(test.scala:7)
-	at org.scalatest.Assertions$class.assert(Assertions.scala:401)
-	at test.assert(test.scala:7)
-	at test$$anonfun$2.apply$mcV$sp(test.scala:13)
-	at test$$anonfun$2.apply(test.scala:13)
-	at test$$anonfun$2.apply(test.scala:13)
-	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)
-	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)
-	at test.withFixture(test.scala:7)
-	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)
-	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
-	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)
-	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)
-	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)
-	at test.runTest(test.scala:7)
-	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
-	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)
-	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)
-	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)
+                <testcase classname="test" name="test 2 expected values are equal" time="0.01"> 
+                    </testcase><testcase classname="test" name="test 2 values are different and fail" time="0.004"> <failure message="2 did not equal 3" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: 2 did not equal 3
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:468)
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1559)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:386)
+	at test$$anonfun$2.apply$mcV$sp(test.scala:14)
+	at test$$anonfun$2.apply(test.scala:14)
+	at test$$anonfun$2.apply(test.scala:14)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:158)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1121)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1559)
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:155)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:167)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:167)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:167)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1559)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:199)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:199)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
 	at scala.collection.immutable.List.foreach(List.scala:318)
-	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)
-	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)
-	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)
-	at test.runTests(test.scala:7)
-	at org.scalatest.Suite$class.run(Suite.scala:2303)
-	at test.org$scalatest$FunSuite$$super$run(test.scala:7)
-	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
-	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)
-	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)
-	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)
-	at test.run(test.scala:7)
-	at org.scalatest.tools.ScalaTestFramework$ScalaTestRunner.run(ScalaTestFramework.scala:214)
-	at sbt.RunnerWrapper$1.runRunner2(FrameworkWrapper.java:223)
-	at sbt.RunnerWrapper$1.execute(FrameworkWrapper.java:236)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:199)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1559)
+	at org.scalatest.Suite$class.run(Suite.scala:1423)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1559)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:203)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:203)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:203)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1559)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:444)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:651)
 	at sbt.TestRunner.runTest$1(TestFramework.scala:84)
 	at sbt.TestRunner.run(TestFramework.scala:94)
 	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:219)
@@ -68,6 +73,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
+                    </testcase><testcase classname="test" name="test output is Hello, World!" time="0.043"> 
                     </testcase>
                 <system-out></system-out>
                 <system-err></system-err>

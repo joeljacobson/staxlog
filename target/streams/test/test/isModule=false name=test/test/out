@@ -1,4 +1,5 @@
 [0m[[0minfo[0m] [0m[32mtest:[0m[0m
 [0m[[0minfo[0m] [0m[32m- test 2 expected values are equal[0m[0m
 [0m[[0minfo[0m] [0m[31m- test 2 values are different and fail *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  2 did not equal 3 (test.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m  2 did not equal 3 (test.scala:14)[0m[0m
+[0m[[0minfo[0m] [0m[32m- test output is Hello, World![0m[0m
