@@ -1,10 +1,11 @@
 staxlog
 =======
 
-Project description
---------------------
+Insert project description 
 
 
-'''sbt run'''
 
-'''sbt test'''
+Run the app: ```sbt run```
+
+
+Run the tests: ```sbt test```
